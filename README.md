@@ -19,6 +19,8 @@ Collect some awesome website temples
     - Modify php.ini to avoid to output warning messages. To locate php.ini:
         ```
         php5 -i|grep php.ini
+        Configuration File (php.ini) Path => /etc/php5/cli
+        Loaded Configuration File => /etc/php5/cli/php.ini
         ```
     - Need to modfity user(www-data) or target files and folders permission when symbolic links are used.
         ```
