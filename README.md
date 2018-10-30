@@ -20,7 +20,7 @@ Collect some awesome website temples
         ```
         php5 -i|grep php.ini
         ```
-    - Need to modfity user(www-data) permission when symbolic links are used.
+    - Need to modfity user(www-data) or target files and folders permission when symbolic links are used.
         ```
         sudo chmod 755 symbolic-link
         ```
